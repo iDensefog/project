@@ -1,0 +1,130 @@
+
+.bg {
+    background-image: url("images/bg.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 0;
+}
+
+.border {
+    position: absolute;
+    top: -12px;
+    left: -38px;
+    z-index: 15;
+}
+
+.small {
+    position: absolute;
+    top: 120px;
+    left: 401px;
+    z-index: 16;
+    opacity: 1;
+}
+
+.content {
+    display: inline-block;
+
+    font-size: 19px;
+    text-align: left;
+    line-height: 80px;
+
+    border-radius: 10px;
+    width: 748px;
+
+    position: absolute;
+    top: 245px;
+    left: 620px;
+    bottom: 206px;
+    right: 490px;
+}
+
+.left {
+    width: 482px;
+    height: auto;
+    border: 1px solid dotted;
+    
+    position: absolute;
+    z-index: 19;
+}
+
+.in {
+    float: right;
+
+    margin-top: -25px;
+    margin-right: 25px;
+}
+
+.txt {
+    float: right;
+    
+    margin-top: -1px;
+    margin-right: 273px;
+    height: 1px;
+    width: 2px;
+}
+
+.other {
+    display: inline-block;
+
+    font-size: 19px;
+    text-align: left;
+    line-height: 80px;
+
+    border-radius: 10px;
+    width: 748px;
+
+    position: absolute;
+    top: 480px;
+    left: 620px;
+    bottom: 206px;
+    right: 490px;
+    z-index: 19;
+}
+
+.vl {
+     border-radius: 19px;
+
+     width: 301px;
+     height: 35px; 
+}
+
+select {
+    background-image: url("images/arrow.png") no-repeat;
+    
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+   
+    position: relative;
+}
+
+.center {
+    padding-left: 294px;
+}
+
+.button {
+    padding-left: 225px;
+}
+
+.left {
+    text-shadow: 0.1px 0.1px 0.4px;
+}
+
+.photo {
+    text-shadow: 0.1px 0.1px 0.4px;
+}
+
+.other {
+    text-shadow: 0.1px 0.1px 0.4px;
+}
+
+
