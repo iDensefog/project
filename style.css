@@ -29,7 +29,6 @@
     z-index: 16;
     opacity: 1;
 }
-
 .content {
     display: inline-block;
 
@@ -45,28 +44,25 @@
     left: 620px;
     bottom: 206px;
     right: 490px;
+    z-index: 19;
 }
 
 .left {
     width: 482px;
     height: auto;
     border: 1px solid dotted;
-    
-    position: absolute;
-    z-index: 19;
 }
 
 .in {
     float: right;
 
-    margin-top: -25px;
-    margin-right: 25px;
+    margin-top: -259px;
+    margin-right: 15px;
 }
 
 .txt {
     float: right;
-    
-    margin-top: -1px;
+    margin-top: -211px;
     margin-right: 273px;
     height: 1px;
     width: 2px;
@@ -98,13 +94,17 @@
 }
 
 select {
-    background-image: url("images/arrow.png") no-repeat;
+    background-image: url("images/arrow.png");
+    background-position: right;
+    background-repeat: no-repeat;
     
     border: none;
+    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
    
     position: relative;
+    right: 5px
 }
 
 .center {
